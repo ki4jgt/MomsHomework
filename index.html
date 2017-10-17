@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			html, body{margin: 0px;
+						padding: 0px;
+						background-color: black;
+						overflow-y: hidden;}
+			iframe {width: 99.5%;
+				height: 92vh;
+				overflow-x: hidden;}
+			.header {width: 99%;
+					height: 7vh;
+					background-color: black;
+					color: white;}
+			.dropdown {position: relative;
+					display: inline-block;}
+			.dropdown-content {display: none;
+							position: absolute;
+							background-color: black;
+							min-width: 160px;
+							box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+							padding: 12px 16px;
+							z-index: 1;}
+
+			.dropdown:hover .dropdown-content {display: block;}
+			a {text-decoration: none;
+				color: white;}
+		</style>
+		<base target = "iframe">
+	</head>
+	<body>
+		<div class = "header">
+			<table width = "100%" style = "vertical-align: bottom; height: 100%;">
+				<tr>
+					<td width = "25%" style = "font-family: 'Fascinate Inline', cursive;"><a href = "index1.html">Logan Library</a></td>
+					<td width = "25%">
+						<div class="dropdown">
+						  <span>Children's</span>
+						  <div class="dropdown-content">
+							<p><a href = "biscuit.html">Biscuit's Day at the Farm</a></p>
+							<p><a href = "elephant.html">Ella the Elegant Elephant</a></p>
+							<p><a href = "rabbit.html">Big Rabbit's Bad Mood</a></p>
+						  </div>
+						</div>
+					</td>
+					<td width = "25%">
+					<div class="dropdown">
+						  <span>Junior Fiction</span>
+						  <div class="dropdown-content">
+							<p><a href = "8class.html">8 Class Pets + 1 Squirrel % 1 Dog = CHAOS</a></p>
+							<p><a href = "pony.html">Dirt</a></p>
+							<p><a href = "doggone.html">Doggone. . . Third Grade!</a></p>
+							<p><a href = "horsey.html">Misty's Twilight</a></p>
+							<p><a href = "puppy.html">The Puppy Place: Angel</a></p>
+							<p><a href = "cat.html">Toes</a></p>
+							<p><a href = "webster.html">Webster: Tale of an Outlaw</a></p>
+						  </div>
+						</div>
+					</td>
+					<td width = "25%"></td>
+				</tr>
+			</table>
+		</div>
+		<iframe name = "iframe" src="index1.html"></iframe>
+	</body>
+	<footer>
+		<link href="https://fonts.googleapis.com/css?family=Fascinate+Inline" rel="stylesheet">
+	</footer>
+</html>
